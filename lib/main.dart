@@ -76,13 +76,13 @@ class QuoteContainer extends StatelessWidget {
       child: Container(
         margin: EdgeInsets.all(20),
         padding: EdgeInsets.all(15),
-        color: Color.fromARGB(255, 108, 167, 196),
+        color: Colors.blueGrey,
         child: Center(
-          child: Text(
-            quote,
-            style: TextStyle(fontSize: 16, color: Colors.white),
+            child: Text(
+              quote,
+              style: TextStyle(fontSize: 16, color: Colors.white),
+            ),
           ),
-        ),
       ),
     );
   }
